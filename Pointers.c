@@ -26,7 +26,4 @@ int pointers() {
     pointer++;
     printf("Value at index 1 is: %d\n", *pointer);
     printf("Value at index 2 is: %d\n", *(pointer + 1));
-
-
-    return 0;
 }

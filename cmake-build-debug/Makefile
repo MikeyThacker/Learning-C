@@ -129,6 +129,30 @@ CLion_Projects/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CLion_Projects.dir/build.make CMakeFiles/CLion_Projects.dir/build
 .PHONY : CLion_Projects/fast
 
+Arrays.o: Arrays.c.o
+.PHONY : Arrays.o
+
+# target to build an object file
+Arrays.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CLion_Projects.dir/build.make CMakeFiles/CLion_Projects.dir/Arrays.c.o
+.PHONY : Arrays.c.o
+
+Arrays.i: Arrays.c.i
+.PHONY : Arrays.i
+
+# target to preprocess a source file
+Arrays.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CLion_Projects.dir/build.make CMakeFiles/CLion_Projects.dir/Arrays.c.i
+.PHONY : Arrays.c.i
+
+Arrays.s: Arrays.c.s
+.PHONY : Arrays.s
+
+# target to generate assembly for a file
+Arrays.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CLion_Projects.dir/build.make CMakeFiles/CLion_Projects.dir/Arrays.c.s
+.PHONY : Arrays.c.s
+
 ConditionalStatements.o: ConditionalStatements.c.o
 .PHONY : ConditionalStatements.o
 
@@ -234,6 +258,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... CLion_Projects"
+	@echo "... Arrays.o"
+	@echo "... Arrays.i"
+	@echo "... Arrays.s"
 	@echo "... ConditionalStatements.o"
 	@echo "... ConditionalStatements.i"
 	@echo "... ConditionalStatements.s"

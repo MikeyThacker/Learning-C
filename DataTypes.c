@@ -21,7 +21,4 @@ int dataTypes() {
     signed int signedInt; // allow negative numbers
     // Unsigned increases range, but only if you know that the value will not be negative
     // Mixing signed and unsigned integers can cause bugs and issues
-
-
-    return 0;
 }

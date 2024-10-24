@@ -49,6 +49,4 @@ int conditionalStatements() {
     // Comparative: <, >, <=, >=, ==, !=, &&, ||, !
     // Incremental ++i, --i, i++, i--
     */
-
-    return 0;
 }

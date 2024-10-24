@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/Users/mikeythacker/Desktop/Uni/Learning-C/Arrays.c" "CMakeFiles/CLion_Projects.dir/Arrays.c.o" "gcc" "CMakeFiles/CLion_Projects.dir/Arrays.c.o.d"
   "/Users/mikeythacker/Desktop/Uni/Learning-C/ConditionalStatements.c" "CMakeFiles/CLion_Projects.dir/ConditionalStatements.c.o" "gcc" "CMakeFiles/CLion_Projects.dir/ConditionalStatements.c.o.d"
   "/Users/mikeythacker/Desktop/Uni/Learning-C/DataTypes.c" "CMakeFiles/CLion_Projects.dir/DataTypes.c.o" "gcc" "CMakeFiles/CLion_Projects.dir/DataTypes.c.o.d"
   "/Users/mikeythacker/Desktop/Uni/Learning-C/HelloWorld.c" "CMakeFiles/CLion_Projects.dir/HelloWorld.c.o" "gcc" "CMakeFiles/CLion_Projects.dir/HelloWorld.c.o.d"

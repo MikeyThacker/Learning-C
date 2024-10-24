@@ -4,4 +4,7 @@ project(CLion_Projects C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(CLion_Projects
-        HelloWorld.c)
+        HelloWorld.c
+        DataTypes.c
+        ConditionalStatements.c
+        Pointers.c)

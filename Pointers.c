@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int pointers() {
     int myValue = 42;
     int *myPointer = &myValue;
 
@@ -20,8 +20,12 @@ int main() {
 
     // Pointer Arithmetic
     int value = 123;
-    int* pointer = &value;
-    printf("Value at index 0 is: %p\n", &pointer);
+
+    int *pointer = &value;
+    printf("Value at index 0 is: %d\n", *pointer);
+    pointer++;
+    printf("Value at index 1 is: %d\n", *pointer);
+    printf("Value at index 2 is: %d\n", *(pointer + 1));
 
 
     return 0;

@@ -1,9 +1,13 @@
-int main() {
+int dataTypes() {
     // Mostly same data types as python and java
+
+    /*
     char character = "A"; // A single character
     int integer = 1; // An integer with size based on word size of machine
     float floating = 3.14; // Single precision floating point number
     double doubled = 3.141592653589793; // Double precision floating point number
+    */
+
     // There is no specific boolean type in C
     // Instead, booleans are implemented and evaluated as integer values
 

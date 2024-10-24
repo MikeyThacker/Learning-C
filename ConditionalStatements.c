@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main() {
+int conditionalStatements() {
+    /*
     // If, while, and do...while constructs are almost identical to java
 
     // If statement
@@ -11,10 +12,10 @@ int main() {
     // For loops
     int i;
     for (i = 0; i < 10; i++) {
-        /*
+
         Some language modes of C do not allow declaration of variables
             inside the loop definition
-        */
+
     }
 
     // While loops
@@ -30,6 +31,7 @@ int main() {
     } while (y < 10);
 
     // Switch statement
+
     char character = "a";
     switch (character) {
         case 'a': printf("a");
@@ -46,7 +48,7 @@ int main() {
     // Operational: +, -, *, /, %
     // Comparative: <, >, <=, >=, ==, !=, &&, ||, !
     // Incremental ++i, --i, i++, i--
-
+    */
 
     return 0;
 }

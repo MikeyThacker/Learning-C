@@ -7,4 +7,5 @@ add_executable(CLion_Projects
         HelloWorld.c
         DataTypes.c
         ConditionalStatements.c
-        Pointers.c)
+        Pointers.c
+)

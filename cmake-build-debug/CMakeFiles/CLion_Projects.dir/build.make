@@ -53,10 +53,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/mikeythacker/Desktop/Uni/Learing C"
+CMAKE_SOURCE_DIR = /Users/mikeythacker/Desktop/Uni/Learning-C
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/mikeythacker/Desktop/Uni/Learing C/cmake-build-debug"
+CMAKE_BINARY_DIR = /Users/mikeythacker/Desktop/Uni/Learning-C/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/CLion_Projects.dir/depend.make
@@ -70,60 +70,60 @@ include CMakeFiles/CLion_Projects.dir/progress.make
 include CMakeFiles/CLion_Projects.dir/flags.make
 
 CMakeFiles/CLion_Projects.dir/HelloWorld.c.o: CMakeFiles/CLion_Projects.dir/flags.make
-CMakeFiles/CLion_Projects.dir/HelloWorld.c.o: /Users/mikeythacker/Desktop/Uni/Learing\ C/HelloWorld.c
+CMakeFiles/CLion_Projects.dir/HelloWorld.c.o: /Users/mikeythacker/Desktop/Uni/Learning-C/HelloWorld.c
 CMakeFiles/CLion_Projects.dir/HelloWorld.c.o: CMakeFiles/CLion_Projects.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/mikeythacker/Desktop/Uni/Learing C/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/CLion_Projects.dir/HelloWorld.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CLion_Projects.dir/HelloWorld.c.o -MF CMakeFiles/CLion_Projects.dir/HelloWorld.c.o.d -o CMakeFiles/CLion_Projects.dir/HelloWorld.c.o -c "/Users/mikeythacker/Desktop/Uni/Learing C/HelloWorld.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mikeythacker/Desktop/Uni/Learning-C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/CLion_Projects.dir/HelloWorld.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CLion_Projects.dir/HelloWorld.c.o -MF CMakeFiles/CLion_Projects.dir/HelloWorld.c.o.d -o CMakeFiles/CLion_Projects.dir/HelloWorld.c.o -c /Users/mikeythacker/Desktop/Uni/Learning-C/HelloWorld.c
 
 CMakeFiles/CLion_Projects.dir/HelloWorld.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/CLion_Projects.dir/HelloWorld.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/mikeythacker/Desktop/Uni/Learing C/HelloWorld.c" > CMakeFiles/CLion_Projects.dir/HelloWorld.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mikeythacker/Desktop/Uni/Learning-C/HelloWorld.c > CMakeFiles/CLion_Projects.dir/HelloWorld.c.i
 
 CMakeFiles/CLion_Projects.dir/HelloWorld.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/CLion_Projects.dir/HelloWorld.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/mikeythacker/Desktop/Uni/Learing C/HelloWorld.c" -o CMakeFiles/CLion_Projects.dir/HelloWorld.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mikeythacker/Desktop/Uni/Learning-C/HelloWorld.c -o CMakeFiles/CLion_Projects.dir/HelloWorld.c.s
 
 CMakeFiles/CLion_Projects.dir/DataTypes.c.o: CMakeFiles/CLion_Projects.dir/flags.make
-CMakeFiles/CLion_Projects.dir/DataTypes.c.o: /Users/mikeythacker/Desktop/Uni/Learing\ C/DataTypes.c
+CMakeFiles/CLion_Projects.dir/DataTypes.c.o: /Users/mikeythacker/Desktop/Uni/Learning-C/DataTypes.c
 CMakeFiles/CLion_Projects.dir/DataTypes.c.o: CMakeFiles/CLion_Projects.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/mikeythacker/Desktop/Uni/Learing C/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/CLion_Projects.dir/DataTypes.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CLion_Projects.dir/DataTypes.c.o -MF CMakeFiles/CLion_Projects.dir/DataTypes.c.o.d -o CMakeFiles/CLion_Projects.dir/DataTypes.c.o -c "/Users/mikeythacker/Desktop/Uni/Learing C/DataTypes.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mikeythacker/Desktop/Uni/Learning-C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/CLion_Projects.dir/DataTypes.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CLion_Projects.dir/DataTypes.c.o -MF CMakeFiles/CLion_Projects.dir/DataTypes.c.o.d -o CMakeFiles/CLion_Projects.dir/DataTypes.c.o -c /Users/mikeythacker/Desktop/Uni/Learning-C/DataTypes.c
 
 CMakeFiles/CLion_Projects.dir/DataTypes.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/CLion_Projects.dir/DataTypes.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/mikeythacker/Desktop/Uni/Learing C/DataTypes.c" > CMakeFiles/CLion_Projects.dir/DataTypes.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mikeythacker/Desktop/Uni/Learning-C/DataTypes.c > CMakeFiles/CLion_Projects.dir/DataTypes.c.i
 
 CMakeFiles/CLion_Projects.dir/DataTypes.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/CLion_Projects.dir/DataTypes.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/mikeythacker/Desktop/Uni/Learing C/DataTypes.c" -o CMakeFiles/CLion_Projects.dir/DataTypes.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mikeythacker/Desktop/Uni/Learning-C/DataTypes.c -o CMakeFiles/CLion_Projects.dir/DataTypes.c.s
 
 CMakeFiles/CLion_Projects.dir/ConditionalStatements.c.o: CMakeFiles/CLion_Projects.dir/flags.make
-CMakeFiles/CLion_Projects.dir/ConditionalStatements.c.o: /Users/mikeythacker/Desktop/Uni/Learing\ C/ConditionalStatements.c
+CMakeFiles/CLion_Projects.dir/ConditionalStatements.c.o: /Users/mikeythacker/Desktop/Uni/Learning-C/ConditionalStatements.c
 CMakeFiles/CLion_Projects.dir/ConditionalStatements.c.o: CMakeFiles/CLion_Projects.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/mikeythacker/Desktop/Uni/Learing C/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/CLion_Projects.dir/ConditionalStatements.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CLion_Projects.dir/ConditionalStatements.c.o -MF CMakeFiles/CLion_Projects.dir/ConditionalStatements.c.o.d -o CMakeFiles/CLion_Projects.dir/ConditionalStatements.c.o -c "/Users/mikeythacker/Desktop/Uni/Learing C/ConditionalStatements.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mikeythacker/Desktop/Uni/Learning-C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/CLion_Projects.dir/ConditionalStatements.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CLion_Projects.dir/ConditionalStatements.c.o -MF CMakeFiles/CLion_Projects.dir/ConditionalStatements.c.o.d -o CMakeFiles/CLion_Projects.dir/ConditionalStatements.c.o -c /Users/mikeythacker/Desktop/Uni/Learning-C/ConditionalStatements.c
 
 CMakeFiles/CLion_Projects.dir/ConditionalStatements.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/CLion_Projects.dir/ConditionalStatements.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/mikeythacker/Desktop/Uni/Learing C/ConditionalStatements.c" > CMakeFiles/CLion_Projects.dir/ConditionalStatements.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mikeythacker/Desktop/Uni/Learning-C/ConditionalStatements.c > CMakeFiles/CLion_Projects.dir/ConditionalStatements.c.i
 
 CMakeFiles/CLion_Projects.dir/ConditionalStatements.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/CLion_Projects.dir/ConditionalStatements.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/mikeythacker/Desktop/Uni/Learing C/ConditionalStatements.c" -o CMakeFiles/CLion_Projects.dir/ConditionalStatements.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mikeythacker/Desktop/Uni/Learning-C/ConditionalStatements.c -o CMakeFiles/CLion_Projects.dir/ConditionalStatements.c.s
 
 CMakeFiles/CLion_Projects.dir/Pointers.c.o: CMakeFiles/CLion_Projects.dir/flags.make
-CMakeFiles/CLion_Projects.dir/Pointers.c.o: /Users/mikeythacker/Desktop/Uni/Learing\ C/Pointers.c
+CMakeFiles/CLion_Projects.dir/Pointers.c.o: /Users/mikeythacker/Desktop/Uni/Learning-C/Pointers.c
 CMakeFiles/CLion_Projects.dir/Pointers.c.o: CMakeFiles/CLion_Projects.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/mikeythacker/Desktop/Uni/Learing C/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/CLion_Projects.dir/Pointers.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CLion_Projects.dir/Pointers.c.o -MF CMakeFiles/CLion_Projects.dir/Pointers.c.o.d -o CMakeFiles/CLion_Projects.dir/Pointers.c.o -c "/Users/mikeythacker/Desktop/Uni/Learing C/Pointers.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mikeythacker/Desktop/Uni/Learning-C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/CLion_Projects.dir/Pointers.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CLion_Projects.dir/Pointers.c.o -MF CMakeFiles/CLion_Projects.dir/Pointers.c.o.d -o CMakeFiles/CLion_Projects.dir/Pointers.c.o -c /Users/mikeythacker/Desktop/Uni/Learning-C/Pointers.c
 
 CMakeFiles/CLion_Projects.dir/Pointers.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/CLion_Projects.dir/Pointers.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/mikeythacker/Desktop/Uni/Learing C/Pointers.c" > CMakeFiles/CLion_Projects.dir/Pointers.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mikeythacker/Desktop/Uni/Learning-C/Pointers.c > CMakeFiles/CLion_Projects.dir/Pointers.c.i
 
 CMakeFiles/CLion_Projects.dir/Pointers.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/CLion_Projects.dir/Pointers.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/mikeythacker/Desktop/Uni/Learing C/Pointers.c" -o CMakeFiles/CLion_Projects.dir/Pointers.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mikeythacker/Desktop/Uni/Learning-C/Pointers.c -o CMakeFiles/CLion_Projects.dir/Pointers.c.s
 
 # Object files for target CLion_Projects
 CLion_Projects_OBJECTS = \
@@ -141,7 +141,7 @@ CLion_Projects: CMakeFiles/CLion_Projects.dir/ConditionalStatements.c.o
 CLion_Projects: CMakeFiles/CLion_Projects.dir/Pointers.c.o
 CLion_Projects: CMakeFiles/CLion_Projects.dir/build.make
 CLion_Projects: CMakeFiles/CLion_Projects.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/mikeythacker/Desktop/Uni/Learing C/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable CLion_Projects"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/mikeythacker/Desktop/Uni/Learning-C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable CLion_Projects"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CLion_Projects.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -153,6 +153,6 @@ CMakeFiles/CLion_Projects.dir/clean:
 .PHONY : CMakeFiles/CLion_Projects.dir/clean
 
 CMakeFiles/CLion_Projects.dir/depend:
-	cd "/Users/mikeythacker/Desktop/Uni/Learing C/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/mikeythacker/Desktop/Uni/Learing C" "/Users/mikeythacker/Desktop/Uni/Learing C" "/Users/mikeythacker/Desktop/Uni/Learing C/cmake-build-debug" "/Users/mikeythacker/Desktop/Uni/Learing C/cmake-build-debug" "/Users/mikeythacker/Desktop/Uni/Learing C/cmake-build-debug/CMakeFiles/CLion_Projects.dir/DependInfo.cmake" "--color=$(COLOR)"
+	cd /Users/mikeythacker/Desktop/Uni/Learning-C/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/mikeythacker/Desktop/Uni/Learning-C /Users/mikeythacker/Desktop/Uni/Learning-C /Users/mikeythacker/Desktop/Uni/Learning-C/cmake-build-debug /Users/mikeythacker/Desktop/Uni/Learning-C/cmake-build-debug /Users/mikeythacker/Desktop/Uni/Learning-C/cmake-build-debug/CMakeFiles/CLion_Projects.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/CLion_Projects.dir/depend
 

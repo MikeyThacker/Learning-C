@@ -1,4 +1,4 @@
-void main() {
+int main() {
     // Mostly same data types as python and java
     char character = "A"; // A single character
     int integer = 1; // An integer with size based on word size of machine
@@ -17,4 +17,7 @@ void main() {
     signed int signedInt; // allow negative numbers
     // Unsigned increases range, but only if you know that the value will not be negative
     // Mixing signed and unsigned integers can cause bugs and issues
+
+
+    return 0;
 }

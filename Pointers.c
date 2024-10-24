@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void main() {
+int main() {
     int myValue = 42;
     int *myPointer = &myValue;
 
@@ -23,4 +23,6 @@ void main() {
     int* pointer = &value;
     printf("Value at index 0 is: %p\n", &pointer);
 
+
+    return 0;
 }

@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void main() {
+int main() {
     // If, while, and do...while constructs are almost identical to java
 
     // If statement
@@ -46,4 +46,7 @@ void main() {
     // Operational: +, -, *, /, %
     // Comparative: <, >, <=, >=, ==, !=, &&, ||, !
     // Incremental ++i, --i, i++, i--
+
+
+    return 0;
 }

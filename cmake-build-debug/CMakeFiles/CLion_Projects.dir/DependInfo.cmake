@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/mikeythacker/Desktop/Uni/Learning-C/ConditionalStatements.c" "CMakeFiles/CLion_Projects.dir/ConditionalStatements.c.o" "gcc" "CMakeFiles/CLion_Projects.dir/ConditionalStatements.c.o.d"
   "/Users/mikeythacker/Desktop/Uni/Learning-C/DataTypes.c" "CMakeFiles/CLion_Projects.dir/DataTypes.c.o" "gcc" "CMakeFiles/CLion_Projects.dir/DataTypes.c.o.d"
   "/Users/mikeythacker/Desktop/Uni/Learning-C/HelloWorld.c" "CMakeFiles/CLion_Projects.dir/HelloWorld.c.o" "gcc" "CMakeFiles/CLion_Projects.dir/HelloWorld.c.o.d"
+  "/Users/mikeythacker/Desktop/Uni/Learning-C/MemoryManagement.c" "CMakeFiles/CLion_Projects.dir/MemoryManagement.c.o" "gcc" "CMakeFiles/CLion_Projects.dir/MemoryManagement.c.o.d"
   "/Users/mikeythacker/Desktop/Uni/Learning-C/Pointers.c" "CMakeFiles/CLion_Projects.dir/Pointers.c.o" "gcc" "CMakeFiles/CLion_Projects.dir/Pointers.c.o.d"
   "/Users/mikeythacker/Desktop/Uni/Learning-C/Strings.c" "CMakeFiles/CLion_Projects.dir/Strings.c.o" "gcc" "CMakeFiles/CLion_Projects.dir/Strings.c.o.d"
   )

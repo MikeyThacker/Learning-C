@@ -9,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/CLion_Projects.dir/DataTypes.c.o.d"
   "CMakeFiles/CLion_Projects.dir/HelloWorld.c.o"
   "CMakeFiles/CLion_Projects.dir/HelloWorld.c.o.d"
+  "CMakeFiles/CLion_Projects.dir/MemoryManagement.c.o"
+  "CMakeFiles/CLion_Projects.dir/MemoryManagement.c.o.d"
   "CMakeFiles/CLion_Projects.dir/Pointers.c.o"
   "CMakeFiles/CLion_Projects.dir/Pointers.c.o.d"
   "CMakeFiles/CLion_Projects.dir/Strings.c.o"

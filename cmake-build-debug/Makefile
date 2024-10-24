@@ -225,6 +225,30 @@ HelloWorld.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CLion_Projects.dir/build.make CMakeFiles/CLion_Projects.dir/HelloWorld.c.s
 .PHONY : HelloWorld.c.s
 
+MemoryManagement.o: MemoryManagement.c.o
+.PHONY : MemoryManagement.o
+
+# target to build an object file
+MemoryManagement.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CLion_Projects.dir/build.make CMakeFiles/CLion_Projects.dir/MemoryManagement.c.o
+.PHONY : MemoryManagement.c.o
+
+MemoryManagement.i: MemoryManagement.c.i
+.PHONY : MemoryManagement.i
+
+# target to preprocess a source file
+MemoryManagement.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CLion_Projects.dir/build.make CMakeFiles/CLion_Projects.dir/MemoryManagement.c.i
+.PHONY : MemoryManagement.c.i
+
+MemoryManagement.s: MemoryManagement.c.s
+.PHONY : MemoryManagement.s
+
+# target to generate assembly for a file
+MemoryManagement.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CLion_Projects.dir/build.make CMakeFiles/CLion_Projects.dir/MemoryManagement.c.s
+.PHONY : MemoryManagement.c.s
+
 Pointers.o: Pointers.c.o
 .PHONY : Pointers.o
 
@@ -294,6 +318,9 @@ help:
 	@echo "... HelloWorld.o"
 	@echo "... HelloWorld.i"
 	@echo "... HelloWorld.s"
+	@echo "... MemoryManagement.o"
+	@echo "... MemoryManagement.i"
+	@echo "... MemoryManagement.s"
 	@echo "... Pointers.o"
 	@echo "... Pointers.i"
 	@echo "... Pointers.s"

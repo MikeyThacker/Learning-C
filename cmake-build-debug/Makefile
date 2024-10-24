@@ -249,6 +249,30 @@ Pointers.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CLion_Projects.dir/build.make CMakeFiles/CLion_Projects.dir/Pointers.c.s
 .PHONY : Pointers.c.s
 
+Strings.o: Strings.c.o
+.PHONY : Strings.o
+
+# target to build an object file
+Strings.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CLion_Projects.dir/build.make CMakeFiles/CLion_Projects.dir/Strings.c.o
+.PHONY : Strings.c.o
+
+Strings.i: Strings.c.i
+.PHONY : Strings.i
+
+# target to preprocess a source file
+Strings.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CLion_Projects.dir/build.make CMakeFiles/CLion_Projects.dir/Strings.c.i
+.PHONY : Strings.c.i
+
+Strings.s: Strings.c.s
+.PHONY : Strings.s
+
+# target to generate assembly for a file
+Strings.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CLion_Projects.dir/build.make CMakeFiles/CLion_Projects.dir/Strings.c.s
+.PHONY : Strings.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -273,6 +297,9 @@ help:
 	@echo "... Pointers.o"
 	@echo "... Pointers.i"
 	@echo "... Pointers.s"
+	@echo "... Strings.o"
+	@echo "... Strings.i"
+	@echo "... Strings.s"
 .PHONY : help
 
 

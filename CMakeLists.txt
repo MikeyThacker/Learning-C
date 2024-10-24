@@ -9,4 +9,5 @@ add_executable(CLion_Projects
         ConditionalStatements.c
         Pointers.c
         Arrays.c
+        Strings.c
 )

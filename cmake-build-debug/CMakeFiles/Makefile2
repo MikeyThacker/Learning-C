@@ -81,12 +81,12 @@ clean: CMakeFiles/CLion_Projects.dir/clean
 CMakeFiles/CLion_Projects.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CLion_Projects.dir/build.make CMakeFiles/CLion_Projects.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CLion_Projects.dir/build.make CMakeFiles/CLion_Projects.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/mikeythacker/Desktop/Uni/Learning-C/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target CLion_Projects"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/mikeythacker/Desktop/Uni/Learning-C/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Built target CLion_Projects"
 .PHONY : CMakeFiles/CLion_Projects.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/CLion_Projects.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mikeythacker/Desktop/Uni/Learning-C/cmake-build-debug/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mikeythacker/Desktop/Uni/Learning-C/cmake-build-debug/CMakeFiles 10
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/CLion_Projects.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mikeythacker/Desktop/Uni/Learning-C/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/CLion_Projects.dir/rule

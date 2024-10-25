@@ -201,6 +201,30 @@ DataTypes.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CLion_Projects.dir/build.make CMakeFiles/CLion_Projects.dir/DataTypes.c.s
 .PHONY : DataTypes.c.s
 
+FileIO.o: FileIO.c.o
+.PHONY : FileIO.o
+
+# target to build an object file
+FileIO.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CLion_Projects.dir/build.make CMakeFiles/CLion_Projects.dir/FileIO.c.o
+.PHONY : FileIO.c.o
+
+FileIO.i: FileIO.c.i
+.PHONY : FileIO.i
+
+# target to preprocess a source file
+FileIO.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CLion_Projects.dir/build.make CMakeFiles/CLion_Projects.dir/FileIO.c.i
+.PHONY : FileIO.c.i
+
+FileIO.s: FileIO.c.s
+.PHONY : FileIO.s
+
+# target to generate assembly for a file
+FileIO.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CLion_Projects.dir/build.make CMakeFiles/CLion_Projects.dir/FileIO.c.s
+.PHONY : FileIO.c.s
+
 HelloWorld.o: HelloWorld.c.o
 .PHONY : HelloWorld.o
 
@@ -339,6 +363,9 @@ help:
 	@echo "... DataTypes.o"
 	@echo "... DataTypes.i"
 	@echo "... DataTypes.s"
+	@echo "... FileIO.o"
+	@echo "... FileIO.i"
+	@echo "... FileIO.s"
 	@echo "... HelloWorld.o"
 	@echo "... HelloWorld.i"
 	@echo "... HelloWorld.s"

@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/CLion_Projects.dir/ConditionalStatements.c.o.d"
   "CMakeFiles/CLion_Projects.dir/DataTypes.c.o"
   "CMakeFiles/CLion_Projects.dir/DataTypes.c.o.d"
+  "CMakeFiles/CLion_Projects.dir/FileIO.c.o"
+  "CMakeFiles/CLion_Projects.dir/FileIO.c.o.d"
   "CMakeFiles/CLion_Projects.dir/HelloWorld.c.o"
   "CMakeFiles/CLion_Projects.dir/HelloWorld.c.o.d"
   "CMakeFiles/CLion_Projects.dir/MemoryManagement.c.o"

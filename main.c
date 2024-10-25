@@ -125,7 +125,3 @@ void twoNums() {
     printf("Their product is %d\n", prod);
     printf("The first number divided by the second is %lf\n", quotient);
 }
-
-int main() {
-    makeString();
-}

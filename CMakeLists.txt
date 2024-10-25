@@ -11,4 +11,5 @@ add_executable(CLion_Projects
         Arrays.c
         Strings.c
         MemoryManagement.c
+        main.c
 )

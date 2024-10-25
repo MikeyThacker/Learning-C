@@ -15,6 +15,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/mikeythacker/Desktop/Uni/Learning-C/MemoryManagement.c" "CMakeFiles/CLion_Projects.dir/MemoryManagement.c.o" "gcc" "CMakeFiles/CLion_Projects.dir/MemoryManagement.c.o.d"
   "/Users/mikeythacker/Desktop/Uni/Learning-C/Pointers.c" "CMakeFiles/CLion_Projects.dir/Pointers.c.o" "gcc" "CMakeFiles/CLion_Projects.dir/Pointers.c.o.d"
   "/Users/mikeythacker/Desktop/Uni/Learning-C/Strings.c" "CMakeFiles/CLion_Projects.dir/Strings.c.o" "gcc" "CMakeFiles/CLion_Projects.dir/Strings.c.o.d"
+  "/Users/mikeythacker/Desktop/Uni/Learning-C/main.c" "CMakeFiles/CLion_Projects.dir/main.c.o" "gcc" "CMakeFiles/CLion_Projects.dir/main.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -18,9 +18,12 @@ void memoryManagement() {
     -----------------
 
     Memory is allocated through use of the malloc function, which returns a void pointer
-        void* ptr = malloc(bytes);
+        malloc() is short for Memory ALLOCation
+
+        void *ptr = malloc(bytes);
+
     To allocate an array of a particular size on the heap, we need to get that size first.
-        int* ptr = (int*) malloc(10*sizeof(int));
+        int *ptr = (int*) malloc(10*sizeof(int));
 
     Allocated memory is contiguous, so can be treated as an array
         Contiguous, adjective

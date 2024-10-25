@@ -15,6 +15,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/CLion_Projects.dir/Pointers.c.o.d"
   "CMakeFiles/CLion_Projects.dir/Strings.c.o"
   "CMakeFiles/CLion_Projects.dir/Strings.c.o.d"
+  "CMakeFiles/CLion_Projects.dir/main.c.o"
+  "CMakeFiles/CLion_Projects.dir/main.c.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

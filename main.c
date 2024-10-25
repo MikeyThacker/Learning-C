@@ -41,7 +41,6 @@ void usingArrays() {
     nums[2] = 9;
     printf(nums);
     printf("The first value in the array is %d\n", nums[0]);
-
 }
 
 void makeAnArray() {
@@ -74,9 +73,59 @@ void usingStrings() {
 
     // Output string to the console
     printf("%s", string);
+}
 
+void makeString() {
+    char *first = "Hello ";
+    char *second= "World!";
+    char *whole;
+
+    sprintf(whole, "%s%s", first, second);
+    printf("%s", whole);
 
 }
+
+int getLargerNumber(int num1, int num2) {
+    if (num1 > num2) {
+        return num1;
+    } else {
+        return num2;
+    }
+}
+
+int getSmallerNumber(const int num1, const int num2) {
+    if (num1 > num2) {
+        return num2;
+    } else {
+        return num1;
+    }
+}
+
+void twoNums() {
+    int num1, num2;
+    printf("Enter a number: ");
+    scanf("%d", &num1);
+    printf("Enter another number: ");
+    scanf("%d", &num2);
+
+    int larger = getLargerNumber(num1, num2);
+    int smaller = getSmallerNumber(num1, num2);
+
+    int sum = num1 + num2;
+    int diff = abs(num1 - num2);
+    int prod = num1 * num2;
+    double quotient = num1 / num2;
+
+
+    printf("The larger number is %d\n", larger);
+    printf("The smaller number is %d\n", smaller);
+
+    printf("Their sum is %d\n", sum);
+    printf("Their difference is %d\n", diff);
+    printf("Their product is %d\n", prod);
+    printf("The first number divided by the second is %lf\n", quotient);
+}
+
 int main() {
-    usingStrings();
+    makeString();
 }

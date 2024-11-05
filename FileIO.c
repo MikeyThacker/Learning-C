@@ -1,11 +1,8 @@
 # include <stdio.h>
-# include <unistd.h>
-# include <string.h>
-#include <stdlib.h>
 
 char *getUserInput() {
     char str[999];
-    fgets(str);
+    fgets(str, 999, stdin);
     return str;
 }
 
